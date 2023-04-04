@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             KapuTheme {
-                Kapu()
+
 
 
             }
@@ -27,10 +27,3 @@ class MainActivity : ComponentActivity() {
 }
 
 
-@Composable
-fun Kapu() {
-    Column() {
-        
-    }
-
-}
